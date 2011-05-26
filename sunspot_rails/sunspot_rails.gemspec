@@ -28,13 +28,13 @@ Rails request.
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<escape>, [">= 0.0.4"])
-      s.add_runtime_dependency(%q<sunspot>, ["= 1.0.0"])
+      s.add_runtime_dependency(%q<sunspot>, ["= 1.1.0"])
     else
       s.add_dependency(%q<escape>, [">= 0.0.4"])
-      s.add_dependency(%q<sunspot>, ["= 1.0.0"])
+      s.add_dependency(%q<sunspot>, ["= 1.010"])
     end
   else
     s.add_dependency(%q<escape>, [">= 0.0.4"])
-    s.add_dependency(%q<sunspot>, ["= 1.0.0"])
+    s.add_dependency(%q<sunspot>, ["= 1.1.0"])
   end
 end
